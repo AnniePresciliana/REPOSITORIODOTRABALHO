@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+
+table, th, td {
+   border: 1px solid red;
+}
+
+
+
+p{
+    font-family: "Times New Roman", Times, serif;
+}
+
+fieldset{
+    font-size: 90px;
+    background: color:gray;
+    
+}
+
+h1{
+     margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+h3{
+    color font: magenta; 
+}
+
+legend{
+    font-size: 30px;
+}
+
+
+body{
+    background: color:rgba(36, 163, 154, 0.79);
+}
+
+#ajuda{
+    font-size: 13px;
+    color font: purple;
+    text-align: center 
+}
+footer{
+    
+}
