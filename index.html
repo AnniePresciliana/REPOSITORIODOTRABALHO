@@ -6,6 +6,7 @@
     
     <script type="text/jscript" src="jquery.js" ></script>
     <script type="text/jscript" src="jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/cssSM.css">
     
     
 </head>
@@ -18,21 +19,23 @@
                     <legend>CADASTRO DE FORNECEDOR </legend>
 
                 <label>Nome</label>
-                     <input type="text" name="utente[]" id="nome" maxlength="150">
+                     <input type="text" name="utente[]" id="nome" maxlength="150" required>
                 <label>Telefone</label>
-                     <input type="text" name="tel[]" id ="tel" maxlenght="10" >
+                     <input type="text" name="tel[]" id ="tel" maxlenght="10" required>
                 <label>Data de cadastro</label>
-                     <input type="text" name="dta[]" id="dta" maxlength="10" placeholder="yyyy-mm-dd">
+                     <input type="text" name="dta[]" id="dta" maxlength="10" placeholder="yyyy-mm-dd" required>
                 <label>Codigo</label>
-                    <input type="text" name="cod[]" id="cod" maxlength="10">
+                    <input type="text" name="cod[]" id="cod" maxlength="10"required>
                 <label>CNPJ</label>       
                           
-                    <input type="text" name="cnpj[]" id="cnpj" maxlength="30">
+                    <input type="text" name="cnpj[]" id="cnpj" maxlength="30"required>
                    <input type="submit" id="add_field" value="Adicionar">
           
                     </fieldset>
 </form> 
  
+   
+   
     
     <div id="table">
 			<table id="tabela-fornecedores" >
@@ -44,7 +47,7 @@
 						<th>Data de cadastro</th>
 						<th>Codigo</th>
                         <th>CNPJ </th>
-                         <th>AÇÃO </th>
+                         <th>Remova ou edite </th>
 						
 						
 					</tr>
