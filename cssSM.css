@@ -9,13 +9,20 @@ table {
 
 
 table, th, td {
-   border: 1px solid red;
+   border: 3px solid red;
+    font-size: 30px;
 }
 
-
+#form{
+    background-color: #f4d1ed;
+    border: 1px;
+}
 
 p{
     font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-color:blue;
+    font-variant-caps: all-small-caps;
 }
 
 fieldset{

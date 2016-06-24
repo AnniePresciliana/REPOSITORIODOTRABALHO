@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Contas </title>
+   <link rel="stylesheet" type="text/css" href="cssSM.css">
+    
+    
+</head>
+<body>
+   
+   
+   
+   
+    
+    <h1>Cadastro de contas</h1>
+    
+    <li><p>Preencha o formulário de cadastro com as informações da conta a pagar e, ou de boleto .</p></li>
+    <li><p>Fique atento a todos os campos .</p> </li>
+    <li><p>Não esqueça de inserir os dados em <b>TODOS</b>  eles. </p></li>
+    
+    
+   
+<form action="" id="form" border="0">
+
+                <label>Nome/Descrição</label>
+                     <input type="text" name="utente[]" id="nome" maxlength="150">
+                <label>Valor</label>
+                     <input type="text" name="valor[]" id ="valor" maxlenght="10" >
+                <label>Data de vencimento</label>
+                     <input type="text" name="dta[]" id="dta" maxlength="10" placeholder="yyyy-mm-dd">
+                <label>Status</label>
+                    <input type="text" name="idstatus[]" id="idstatus" maxlength="10">
+                <label>Forma de pagamento</label>   
+                    <input type="text" name="formapg[]" id="formapg" maxlength="30">
+                    
+                   <input type="submit" id="add_field" value="Adicionar">
+          
+</form> 
+ 
+   
+   <fieldset>
+       <legend> Contas já cadastradas no sistema </legend>
+    
+    <div id="table">
+			<table id="tabela-contas" >
+				
+				<thead>
+					<tr>
+						<th>Nome / Descrição</th>
+						<th>Valor</th>
+						<th>Vencimento</th>
+						<th>Status</th>
+                        <th>Forma de pagamento</th>
+                         <th>AÇÃO </th>
+						
+						
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+
+		</fieldset>
+</div>
+    <script src="js/ContasDAO.js"></script>
+       <script src="js/TableControllerContas.js"></script>
+    <script src="js/ContasController.js"></script>
+   
+      
+    
+</html>
