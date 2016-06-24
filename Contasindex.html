@@ -9,10 +9,8 @@
 </head>
 <body>
    
-   
-   
-   
-    
+   <img src="FOTO.png" alt ="logo smart" id="logo">
+       
     <h1>Cadastro de contas</h1>
     
     <li><p>Preencha o formulário de cadastro com as informações da conta a pagar e, ou de boleto .</p></li>
@@ -24,19 +22,21 @@
 <form action="" id="form" border="0">
 
                 <label>Nome/Descrição</label>
-                     <input type="text" name="utente[]" id="nome" maxlength="150">
+                     <input type="text" name="utente[]" id="nome" maxlength="150" placeholder="luz/fornecedor">
                 <label>Valor</label>
-                     <input type="text" name="valor[]" id ="valor" maxlenght="10" >
+                     <input type="text" name="valor[]" id ="valor" maxlenght="5" placeholder="R$0,00" >
                 <label>Data de vencimento</label>
-                     <input type="text" name="dta[]" id="dta" maxlength="10" placeholder="yyyy-mm-dd">
+                     <input type="text" name="dta[]" id="dta" maxlength="8" placeholder="yyyy-mm-dd">
                 <label>Status</label>
-                    <input type="text" name="idstatus[]" id="idstatus" maxlength="10">
+                    <input type="text" name="idstatus[]" id="idstatus" maxlength="10" placeholder="pago/atrasado"><br>
                 <label>Forma de pagamento</label>   
-                    <input type="text" name="formapg[]" id="formapg" maxlength="30">
+                    <input type="text" name="formapg[]" id="formapg" maxlength="10" placeholder="dinheiro/boleto">
                     
                    <input type="submit" id="add_field" value="Adicionar">
           
 </form> 
+ 
+ 
  
    
    <fieldset>
@@ -52,7 +52,7 @@
 						<th>Vencimento</th>
 						<th>Status</th>
                         <th>Forma de pagamento</th>
-                         <th>AÇÃO </th>
+                         <th>EDITE OU REMOVA </th>
 						
 						
 					</tr>

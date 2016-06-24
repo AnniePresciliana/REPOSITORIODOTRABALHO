@@ -14,8 +14,9 @@ table, th, td {
 }
 
 #form{
-    background-color: #f4d1ed;
+    background-color: #d6cad4;
     border: 1px;
+    font-size: 20px;
 }
 
 p{
@@ -26,14 +27,15 @@ p{
 }
 
 fieldset{
-    font-size: 20px;
+    font-size: 25px;
     background: color:gray;
     
 }
 
 h1{
+    align-items: center;
      margin: auto;
-    width: 60%;
+    width: 50%;
     border: 3px solid #73AD21;
     padding: 10px;
 }
@@ -44,9 +46,26 @@ h3{
 
 legend{
     font-size: 30px;
+    font-color:#9300ff;
 }
 
 
 body{
     background: color:rgba(36, 163, 154, 0.79);
+}
+
+#background{
+    color: #afa3b4;
+}
+
+body{
+    border: 3px  purple;
+}
+
+#logo{
+    width:100px;
+height:100px;
+position:absolute;
+top:50%;
+left:50%;
 }
